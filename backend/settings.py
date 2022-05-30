@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+j=3$9%zl-cjec*211k$rh5w%=2mo^wt7h7y5-mcl&f3l*sn(('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # Set your auth user to the new user you have created
 AUTH_USER_MODEL = 'api.User'
@@ -43,7 +43,7 @@ CORS_ALLOWED_ORIGINS =[
     "http://127.0.0.1:8000",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://technipedia-platform-2022.herokuapp.com/"
+    "https://technipedia-platform-2022.herokuapp.com"
 ]
 
 # Application definition
