@@ -1,4 +1,5 @@
 /api/__pycache__/
 Procfile
 /env/
-
+/api/migrations/
+/.vscode/
